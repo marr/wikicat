@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::API
-  include ActionController::ImplicitRender
+  ActiveModel::Serializer.config.adapter = :json
 end
