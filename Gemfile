@@ -10,7 +10,7 @@ gem 'spring', :group => :development
 gem 'responders'
 
 gem 'mysql2', '~> 0.3.13'
-gem 'active_model_serializers', '~> 0.10.0.rc2'
+gem 'active_model_serializers', '~> 0.10.0.rc3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

@@ -1,3 +1,3 @@
 class CategorySerializer < ActiveModel::Serializer
-  attributes :title, :sub_categories
+  attributes :cat_title, :cat_subcats
 end

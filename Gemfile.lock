@@ -110,7 +110,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_model_serializers (~> 0.10.0.rc2)
+  active_model_serializers (~> 0.10.0.rc3)
   mysql2 (~> 0.3.13)
   rails (= 4.2.4)
   rails-api
