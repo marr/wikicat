@@ -9,7 +9,7 @@ gem 'spring', :group => :development
 
 gem 'responders'
 
-gem 'mysql2', '~> 0.3.13'
+gem 'pg'
 gem 'active_model_serializers', '~> 0.10.0.rc3'
 
 group :doc do
