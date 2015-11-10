@@ -1,6 +1,6 @@
 class Api::V1::GraphController < ApplicationController
   def show
-    cat = params[:category] || 'sports'
+    cat = params[:category] || 'Main_topic_classifications'
     @category = Category.where(:cat_title => cat.capitalize).first
     @links = Link.where(:cl_to => @category.cat_title,
                         :cl_type => "subcat")
